@@ -1,8 +1,8 @@
 # 🔧 Industrial Equipment Predictive Maintenance System
 
-![Maintenance](assets/Screenshot 2025-01-22 at 7.59.38 PM.png)
-![Warning](assets/Screenshot 2025-01-22 at 7.59.38 PM.png)
-![Coverage](assets/Screenshot 2025-01-22 at 8.00.07 PM.png)
+![Maintenance](./assets/Screenshot 2025-01-22 at 7.59.38 PM.png)
+![Warning](./assets/Screenshot 2025-01-22 at 7.59.38 PM.png)
+![Coverage](./assets/Screenshot 2025-01-22 at 8.00.07 PM.png)
 
 > ML system that predicts equipment failures before they occur, maximizing manufacturing uptime through real-time monitoring and predictive analytics.
 
