@@ -13,6 +13,18 @@ const Card = React.forwardRef(({ className, ...props }, ref) => (
 ))
 Card.displayName = "Card"
 
+const HalfCard = React.forwardRef(({ className, ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cn(
+        "rounded-lg border bg-card text-card-foreground shadow-sm w-1/3 mx-auto", // Added w-1/2 for half width and mx-auto for centering
+        className
+      )}
+      {...props}
+    />
+  ))
+  HalfCard.displayName = "HalfCard"
+
 const CardHeader = React.forwardRef(({ className, ...props }, ref) => (
   <div
     ref={ref}
@@ -39,4 +51,4 @@ const CardContent = React.forwardRef(({ className, ...props }, ref) => (
 ))
 CardContent.displayName = "CardContent"
 
-export { Card, CardHeader, CardTitle, CardContent }
+export { Card, HalfCard, CardHeader, CardTitle, CardContent }
