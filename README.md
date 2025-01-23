@@ -1,75 +1,84 @@
-# 🔧 Industrial Equipment Predictive Maintenance System
+# Manufacturing Dashboard
 
 ![Maintenance](./assets/Screenshot1.png)
 ![Warning](./assets/Screenshot2.png)
 ![Coverage](./assets/Screenshot3.png)
 
-> ML system that predicts equipment failures before they occur, maximizing manufacturing uptime through real-time monitoring and predictive analytics.
+A real-time production monitoring dashboard built with React, featuring predictive analytics, interactive visualizations, and actionable insights.
 
-## ✨ Features
+## Features
 
-🎯 **High Accuracy**
-- 96.6% equipment uptime
-- 144-minute average warning time
-- 3.4% failure rate across 10k+ records
+- **Real-time Monitoring**
+  - Temperature tracking
+  - Tool wear analysis
+  - Process efficiency metrics
 
-📊 **Comprehensive Monitoring**
-- Air & process temperature
-- Rotational speed & torque
-- Tool wear tracking
-- Multiple product types
+- **Predictive Analytics**
+  - Failure probability forecasting
+  - Quality prediction
+  - Energy efficiency optimization
+  - Maintenance scheduling
 
-🤖 **Smart Predictions**
-- Real-time parameter monitoring 
-- Early failure detection
-- Automated alerts
-- Maintenance scheduling
+- **Interactive Action Center**
+  - Priority-based recommendations
+  - Impact-driven decision making
+  - Automated alerting system
+  - Maintenance scheduling
 
-## 🛠️ Technical Setup
+## Tech Stack
 
-### Prerequisites
-```bash
-Python 3.8+
-scikit-learn
-pandas
-numpy
-```
+- React 18
+- Tailwind CSS
+- Recharts
+- shadcn/ui
+- Lucide Icons
 
-### Quick Start
+## Getting Started
+
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/predictive-maintenance
+git clone https://github.com/AshGod16/predictive-maintenance.git
 
 # Install dependencies
-cd predictive-maintenance
-pip install -r requirements.txt
+cd dashboard
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-### Usage Example
-```python
-from maintenance_predictor import PredictiveModel
+## Project Structure
 
-# Initialize and run predictions
-model = PredictiveModel()
-predictions = model.predict(sensor_data)
+```
+src/
+├── components/
+│   ├── ui/            # shadcn/ui components
+│   └── Manufacturing/ # Dashboard components
+├── lib/
+│   └── utils.ts       # Utility functions
+└── App.tsx           # Main application
 ```
 
-## 📈 Performance Metrics
+## Usage
 
-| Metric | Value |
-|--------|--------|
-| Uptime Rate | 96.6% |
-| Warning Time | 144 min |
-| Product Types | 3 |
-| Dataset Size | 10,000 |
+The dashboard automatically updates every minute with new simulated data. Action cards are sorted by potential impact and provide immediate access to relevant forms and controls.
 
-## 🤝 Contributing
+## Contributing
 
-We welcome contributions! Please follow these steps:
 1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a pull request
 
-## 📝 License
+## License
 
-Released under MIT License. See [LICENSE](LICENSE) for details.
+MIT License - see LICENSE file for details
+
+## Contact
+
+Your Name - akash.godbole16@gmail.com
+Project Link: https://github.com/AshGod16/predictive-maintenance
